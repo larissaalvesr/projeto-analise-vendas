@@ -50,7 +50,8 @@ Foram desenvolvidas consultas SQL utilizando:
 
 ## Arquivos do projeto
 
-- `projeto_analise_vendas.sql`: arquivo contendo as consultas SQL desenvolvidas durante o projeto.
+- `01_criacao_banco_dados.sql`: criação das tabelas, relacionamentos e inserção dos dados.
+- `02_consultas_analise.sql`: consultas SQL utilizadas nas análises.
 
 ## Autora
 
