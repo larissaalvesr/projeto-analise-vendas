@@ -21,6 +21,14 @@ A proposta é explorar informações de clientes, produtos, pedidos e itens vend
 - DBeaver Community
 - SQL
 
+## Modelagem do banco de dados
+
+<img width="474" height="277" alt="Captura de Tela 2026-11-14 às 17 29 25" src="https://github.com/user-attachments/assets/d2848479-e797-4421-a8dc-f2c2a8780d31" />
+
+O banco de dados foi estruturado em quatro tabelas: clientes, produtos, pedidos e itens_pedido.
+
+A modelagem apresenta os relacionamentos entre as tabelas, utilizando chaves primárias (Primary Keys) e chaves estrangeiras (Foreign Keys), garantindo a organização e integridade dos dados.
+
 ## Estrutura do banco de dados
 
 O banco de dados possui quatro tabelas principais:
