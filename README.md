@@ -59,6 +59,10 @@ Foram desenvolvidas consultas SQL utilizando:
 
 O dashboard foi desenvolvido no Google Data Studio (Looker Studio), utilizando dados extraídos de um banco PostgreSQL por meio de consultas SQL e organizados no Google Sheets.
 
+### Acesse o dashboard interativo
+
+[Clique aqui para visualizar o dashboard no Looker Studio](https://datastudio.google.com/reporting/b59d478c-1145-4691-b408-e6369a6639e1)
+
 ### Indicadores principais
 
 - **Faturamento total:** R$ 18.110,00
