@@ -15,12 +15,6 @@ A proposta é explorar informações de clientes, produtos, pedidos e itens vend
 - Analisar o faturamento por categoria.
 - Identificar a evolução das vendas ao longo dos meses.
 
-## Tecnologias utilizadas
-
-- PostgreSQL
-- DBeaver Community
-- SQL
-
 ## Modelagem do banco de dados
 
 <img width="474" height="277" alt="Captura de Tela 2026-11-14 às 17 29 25" src="https://github.com/user-attachments/assets/d2848479-e797-4421-a8dc-f2c2a8780d31" />
@@ -60,6 +54,57 @@ Foram desenvolvidas consultas SQL utilizando:
 
 - `01_criacao_banco_dados.sql`: criação das tabelas, relacionamentos e inserção dos dados.
 - `02_consultas_analise.sql`: consultas SQL utilizadas nas análises.
+
+## Dashboard de Análise de Vendas
+
+O dashboard foi desenvolvido no Google Data Studio (Looker Studio), utilizando dados extraídos de um banco PostgreSQL por meio de consultas SQL e organizados no Google Sheets.
+
+### Indicadores principais
+
+- **Faturamento total:** R$ 18.110,00
+- **Total de pedidos:** 8
+- **Ticket médio:** R$ 2.263,75
+
+### Visualizações do dashboard
+
+**1. Indicadores gerais**
+
+![Indicadores gerais](imagens/01_indicadores.png)
+
+**2. Faturamento mensal**
+
+![Faturamento mensal](imagens/02_faturamento_mensal.png)
+
+**3. Produtos mais vendidos**
+
+![Produtos mais vendidos](imagens/03_produtos_mais_vendidos.png)
+
+**4. Faturamento por categoria**
+
+![Faturamento por categoria](imagens/04_faturamento_categoria.png)
+
+**5. Faturamento por cliente**
+
+![Faturamento por cliente](imagens/05_faturamento_cliente.png)
+
+
+### Principais insights
+
+- **Melhor mês de vendas:** fevereiro de 2026, com faturamento de R$ 7.740,00.
+- **Produto mais vendido:** Mouse, com 6 unidades comercializadas.
+- **Categoria de maior faturamento:** Eletrônicos, responsável por aproximadamente 79,5% da receita total (R$ 14.400,00).
+- **Cliente de maior faturamento:** Carla Souza, que liderou o ranking de receita por cliente.
+- **Ticket médio:** R$ 2.263,75 por pedido.
+
+**Conclusão:** A análise demonstra uma concentração significativa do faturamento na categoria Eletrônicos. Apesar de o Mouse liderar em quantidade vendida, os produtos eletrônicos representam a maior contribuição financeira para o negócio.
+
+## Tecnologias utilizadas
+
+- **PostgreSQL:** armazenamento e relacionamento dos dados.
+- **SQL:** consultas, junções, agregações e análises.
+- **DBeaver Community:** execução das consultas e exportação dos resultados.
+- **Google Sheets:** organização dos dados para visualização.
+- **Google Data Studio (Looker Studio):** construção do dashboard interativo.
 
 ## Autora
 
